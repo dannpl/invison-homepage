@@ -1,0 +1,25 @@
+@import './vars.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: $font;
+}
+
+body {
+  color: $primary_color;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font: 14px sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
